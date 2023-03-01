@@ -1,4 +1,4 @@
-"use strict"; 
+"use strict";
 
 // დავალება 1.
 
@@ -77,3 +77,45 @@
 // else {
 //   console.log('error');
 // }
+
+// დავალება 9.
+
+// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
+
+// for ( let x = 0; x < array.length; x++){
+//     for (let item = 0; item < array[x].length; item++){
+//         // console.log(array[x][item]);
+//         if (array[x][item] > 0){
+//             console.log(array[x][item]);
+//         }
+//     }
+// }
+
+// დავალება 10.
+
+// let array = [2, 3, 5, 10, 25, 24, 11, 100, 6, 7, 10];
+// for (let x = 0; x < array.length; x++) {
+//   console.log(array[x]);
+//   if(array[x] % 2 == 0){
+//     console.log(array[x]);
+//   }
+//   if(array[x] % 2 == 1){
+//     console.log(array[x]);
+//   }
+// }
+
+// დავალება 11.
+
+// let users = [
+//     {username: 'giorgi', status: false},
+//     {username: 'levani', status: false},
+//     {username: 'anna', status: true}
+// ]
+
+// for (let item = 0; item < users.length; item++) {
+//     // console.log(item);
+//     if (users[item].status == true){
+//         console.log(users[item]);
+//     }
+// } 
+
